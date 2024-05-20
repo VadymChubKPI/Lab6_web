@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    line-height: 30px;
+    color: #5f6f81;
+}
+
+body{
+    background: #e9eaf1;
+}
+.card{
+    position: absolute;
+    transform: translate(20%, 5%);
+    width: 1350px;
+    height: 1180px;
+    border-radius: 4%;
+    background: #ffff;
+}
+ul{
+    margin-top: 30px;
+    margin-right: 40px;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+li{
+    display: inline-block;
+}
+
+li div {
+    color: #5f6f81;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.about{
+    background-color: #2a43fd;
+    color: white;
+}
+
+.section {
+    float: left;
+    padding: 10px;
+}
+
+.aside{
+    width: 30%;
+    height: 1180px;
+    background: #f3f7f8;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.avatar{
+    margin-top: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+}
+
+.aside > #name, b{
+    font-size: 45px;
+    font-family: Montserrat,serif;
+    margin-bottom: 30px;
+}
+
+.aside > #rank{
+    background: #e6eaee;
+    border-radius: 40px;
+    width: 200px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.contacts{
+    width: 230px;
+    text-align: left;
+    margin: auto;
+}
+
+.contacts p {
+    padding-left: 40px; /* Відступ для іконки зліва */
+    background-repeat: no-repeat;
+    background-position: left center; /* Позиція іконки зліва */
+    background-size: 30px;
+}
+
+#birth {
+    background-image: url('image/calendar.png');
+}
+
+#location {
+    background-image: url('image/marker.png');
+}
+
+#email {
+    background-image: url('image/email.png');
+}
+
+#phone {
+    background-image: url('image/phone.png');
+}
+
+#skype {
+    background-image: url('image/skype.png');
+}
+
+.download-btn{
+    width: 250px;
+    padding: 20px 30px 20px 40px;
+    border: 1px solid #2a43fd;
+    border-radius: 20px;
+    margin: auto;
+    background: #2a43fd;
+}
+
+.download{
+    color: #e6eaee;
+    width: 170px;
+    background-image: url("image/download.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.about-me{
+    color: #5f6f81;
+    width: 65%;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.line{
+    display: inline-block;
+    position: relative;
+    height: 7px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.item{
+    float: right;
+    position: absolute;
+
+}
+
+.item1{
+    width: 22px;
+    background: #ff965e;
+    z-index: 2;
+}
+
+.item2{
+    width: 52px;
+    background: #304cfd;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.details{
+    padding-top: 0;
+    width: 69%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.section-details > div{
+    float: left;
+    padding: 20px 40px;
+    margin: 0 0 28px 28px;
+    left: 20px;
+    width: 32%;
+    height: 50%;
+    border: 1px solid rgba(128,128,128,0.2);
+    border-radius: 30px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 40px;
+    color: #5f6f81;
+}
+
+#text{
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+}
+
